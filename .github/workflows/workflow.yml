@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Dotnet Side by Side testing sample
+    name: ci
     steps:
       - uses: actions/checkout@v2
       - name: Setup dotnet
@@ -22,8 +22,8 @@ jobs:
         with:
           dotnet-version: '3.1.x'
 
-      - name: Building the project
+      - name: Build project
         run: dotnet build --configuration Release
 
-      - name: Running the tests
+      - name: Run tests
         run: dotnet test --configuration Release
