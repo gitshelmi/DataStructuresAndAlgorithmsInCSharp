@@ -7,7 +7,7 @@ namespace DataStructuresAndAlgorithmsInCSharp
       public string Name { get; set; }
       public string Description { get; set; }
       public string Source { get; set; }
-      public Level Level { get; set; }
+      public Levels Levels { get; set; }
       public List<string> Keywords { get; set; }
 
       public abstract void SetBaseValues();

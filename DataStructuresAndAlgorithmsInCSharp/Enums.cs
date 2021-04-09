@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DataStructuresAndAlgorithmsInCSharp
+﻿namespace DataStructuresAndAlgorithmsInCSharp
 {
-   public enum Level
+   public enum Levels
    {
       Easy,
       Intermediate,
@@ -13,6 +9,7 @@ namespace DataStructuresAndAlgorithmsInCSharp
 
    public enum Tags
    {
-      Arrays
+      Arrays,
+      LinkedLists
    }
 }
